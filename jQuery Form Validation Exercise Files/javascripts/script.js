@@ -106,6 +106,7 @@ $(function() {
 		if(error_username == false && error_password == false && error_retype_password == false && error_email == false) {
 			return true;
 		} else {
+			$("#username_error_message").html("Good test");
 			return false;	
 		}
 
